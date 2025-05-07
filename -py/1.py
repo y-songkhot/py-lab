@@ -1,0 +1,8 @@
+print('--- Part 1 ---')
+i=int(input('Integer (1-9): '))
+f=float(input('Floating-point-number: '))
+s=input('String: ')
+print('\n---- Part 2 ---')
+print('1234567890'*5)
+print('%7s%28s%15s'%('INTEGER','Floating-point-number','STRING'))
+print('   %-11d%21.5f%15s'%(i,f,s))
